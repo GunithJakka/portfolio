@@ -2,7 +2,6 @@ import React from 'react'
 
 export const Data = () => {
   return (
-    <div>
         <div className="home__data">
             <h1 className="home__title">Gunith Jakka
             
@@ -21,7 +20,7 @@ export const Data = () => {
                 </h1>
 
             <h3 className="home__subtitle">Software Developer</h3>
-            <p className="home__description">Developer from Chi-Town.</p>
+            <p className="home__description">With a Master's degree from IIlinois Institute of Technology and over 2 years of experience as a Software Engineer, I bring strong skills in MERN Stack.</p>
             <a href="#contact" className="button button--flex">
                 Say Hello
                 <svg xmlns="http://www.w3.org/2000/svg" class="button__icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -30,6 +29,5 @@ export const Data = () => {
                 </svg>
             </a>
         </div>
-    </div>
   )
 }
